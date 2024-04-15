@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fc0505;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-bottom: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #projects ul {
+    padding: 0;
+  }
+  
+  #projects li {
+    margin-bottom: 15px;
+  }
+  
+  #contact p {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #fc0707;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    header, main section {
+      padding: 15px;
+    }
+}
+  
+
+  
